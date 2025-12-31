@@ -28,3 +28,4 @@ if count > 0:
     print(total_sum)
     print("Minimum value:")
     print(min_val)
+it looks like I learned how to use git today
