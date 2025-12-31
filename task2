@@ -1,0 +1,30 @@
+print("Enter numbers (enter 'quit' to exit):")
+
+count = 0
+total_sum = 0
+min_val = None
+
+msg = ""
+while msg != 'quit':
+    msg = input("Value: ")
+    
+    if msg != 'quit':
+        number = int(msg) 
+        
+        if count == 0:
+            min_val = number
+        
+        count = count + 1 
+        total_sum = total_sum + number 
+        
+       
+        if number < min_val:
+            min_val = number
+
+if count > 0:
+    print("Quantity of numbers:")
+    print(count)
+    print("Total sum:")
+    print(total_sum)
+    print("Minimum value:")
+    print(min_val)
